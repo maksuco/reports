@@ -23,7 +23,7 @@ $period2 = 1,2,3, etc..
 
 ```php
 
-  \Helpers::period($period,$period2);
+  \Reports::period($period,$period2);
 
 ```
 
@@ -33,7 +33,7 @@ $path = /someurl/blogname
 
 ```php
 
-  \Helpers::counter($period,$period2,$path);
+  \Reports::counter($period,$period2,$path);
 
 ```
 
@@ -44,7 +44,7 @@ return [$visitors,$pageviews,$labels];
 
 ```php
 
-  \Helpers::chart($period,$period2,$path);
+  \Reports::chart($period,$period2,$path);
   
 ```
 
@@ -53,7 +53,7 @@ Analytics:Get the visits and pageviews for Charts
 
 ```php
 
-  \Helpers::charts($data1);
+  \Reports::charts($data1);
   
 ```
 
@@ -64,7 +64,7 @@ Get the $count and $sum of 2 fields per table, the date field is the one to be u
 
 ```php
 
-  \Helpers::reports($biz_id,$table,$date,$sum);
+  \Reports::reports($biz_id,$table,$date,$sum);
   
 ```
 
@@ -72,7 +72,7 @@ Get data for a chart Report, same as before, but this returns 'total_sum', 'tota
 
 ```php
 
-  $chart = \Helpers::reports_chart($biz_id,$table,$date,$field);
+  $chart = \Reports::reports_chart($biz_id,$table,$date,$field);
   {!! $chart['sum'] !!}
   
 ```
