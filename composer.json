@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Maksuco\\Reports\\HelpersServiceProvider"
+                "Maksuco\\Reports\\ReportsServiceProvider"
             ],
             "aliases": {
                 "Reports": "Maksuco\\Reports\\Facades\\Reports"
