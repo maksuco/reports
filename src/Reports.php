@@ -4,8 +4,8 @@ namespace Maksuco\Reports;
 
 class Reports
 {
-	function (){
-		
+	function occurrences(){
+		$occurrences = array_count_values($user_payment);
 	}
   
   //analytics
