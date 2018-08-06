@@ -4,6 +4,9 @@ namespace Maksuco\Reports;
 
 class Reports
 {
+	function (){
+		
+	}
   
   //analytics
   
