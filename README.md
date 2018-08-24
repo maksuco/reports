@@ -14,6 +14,8 @@ This Package works with autodiscovery in Laravel +5.5, but is compatible with ol
 
 ## Usage
 
+Spatie Laravel-Analytics is requiere to use google analytics, the package is automatically install but it needs the configuration
+https://github.com/spatie/laravel-analytics
 
 # Analytics Helpers
 
