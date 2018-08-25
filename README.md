@@ -15,7 +15,8 @@ This Package works with autodiscovery in Laravel +5.5, but is compatible with ol
 ## Usage
 
 Spatie Laravel-Analytics is requiered to use google analytics, the package is automatically install but it needs the configuration, so you can also use methods like:
-```use Analytics;
+```
+use Analytics;
 use Spatie\Analytics\Period;
 
 //fetch the most visited pages for today and the past week
